@@ -4,7 +4,7 @@
   "description": "Test your custom jquery implementation without clicking and crying!",
   "main": "index.js",
   "scripts": {
-    "test": "mocha custom-jquery.specs.js --reporter spec"
+    "test": "mocha custom-jquery.specs.js"
   },
   "author": "Andrei Volchenko <volchenko.andrei@gmail.com>",
   "license": "MIT",
