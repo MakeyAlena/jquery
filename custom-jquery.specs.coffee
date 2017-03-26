@@ -19,9 +19,7 @@ global.window = doc.defaultView
 _.merge global, window
 
 require './polyfills/dataset.js'
-
-{pathToSolution} = require './config.json'
-require pathToSolution
+require './jquery.js'
 
 _.merge global, window
 
