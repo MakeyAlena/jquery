@@ -4,13 +4,12 @@
   "description": "Test your custom jquery implementation without clicking and crying!",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register custom-jquery.specs.coffee --reporter spec"
+    "test": "mocha custom-jquery.specs.js --reporter spec"
   },
   "author": "Andrei Volchenko <volchenko.andrei@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "chai": "^2.3.0",
-    "coffee-script": "^1.9.2",
     "jsdom": "~3.x",
     "lodash": "^3.8.0",
     "mocha": "^2.2.5",
