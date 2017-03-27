@@ -12,7 +12,7 @@ module.exports = function(config) {
     reporters: ['mocha'],
     colors: true,
     autoWatch: false,
-    browsers: ['Chrome'],
+    browsers: [],
     singleRun: true
   });
 };
